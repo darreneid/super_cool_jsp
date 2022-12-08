@@ -11,7 +11,7 @@ export default class Game {
     this.ball = new Ball(ctx,spd);
     this.leftPaddle = new Paddle(ctx, 'left');
     this.rightPaddle = new Paddle(ctx, 'right');
-    this.animate();
+    this.background.onload = this.animate.bind(this);
   }
 
   animate() {
