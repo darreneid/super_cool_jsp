@@ -6,7 +6,7 @@ export default class Game {
     console.log('initializing game...');
     this.ctx = ctx;
     this.background = new Image();
-    this.background.src = 'assets/background.jpeg';
+    this.background.src = './dist/assets/background.jpeg';
     this.spd = spd;
     this.ball = new Ball(ctx,spd);
     this.leftPaddle = new Paddle(ctx, 'left');
