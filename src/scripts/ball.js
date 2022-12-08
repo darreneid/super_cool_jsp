@@ -21,9 +21,11 @@ export default class Ball {
 
   draw() {
     const [x, y] = this.pos;
+    this.ctx.fillStyle = 'white'
     this.ctx.beginPath();
     this.ctx.arc(x, y, 5, 0, 2 * Math.PI);
     this.ctx.stroke();
+    this.ctx.fill();
   }
 
   update() {
