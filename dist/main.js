@@ -1,0 +1,2 @@
+!function(){"use strict";!function(){const t=function(t){this.ctx=t,this.pos=[Math.floor(800*Math.random()),Math.floor(400*Math.random())],this.img=new Image,this.img.src="/assets/character.svg",this.img.onload=this.draw.bind(this)};t.prototype.draw=function(){this.ctx.drawImage(this.img,this.pos[0],this.pos[1],40,40)};var o=t;const s=document.querySelector("#root"),i=document.createElement("canvas");i.height=400,i.width=800;const n=i.getContext("2d");s.appendChild(i),new o(n)}()}();
+//# sourceMappingURL=main.js.map
