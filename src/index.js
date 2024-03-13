@@ -1,6 +1,6 @@
 import SpongeBob from "./scripts/spongeBob";
 
-// console.log('webpack is working');
+console.log('asset path relative to root');
 
 const root = document.querySelector('#root');
 
